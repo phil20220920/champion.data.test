@@ -48,5 +48,15 @@ namespace Robot.MSTest
             var currentLocation = robot.GetCurrentLocation();
             Assert.AreEqual(currentLocation.Face.Description, DirectionTypes.EAST);
         }
+
+        [TestMethod]
+        public void ReportTest()
+        {
+            robot.Place(2, 3, DirectionTypes.NORTH);
+            var report = robot.Report().ToLower().Trim();            
+            Assert.IsTrue(report.Contains("2"));
+            Assert.IsTrue(report.Contains("3"));
+            Assert.IsTrue(report.Contains("north"));
+        }
     }
 }
