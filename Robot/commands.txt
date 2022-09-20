@@ -1,0 +1,14 @@
+﻿place, 2, 3, west
+report
+move
+left
+report
+left
+move
+report
+move
+report
+move
+report
+left
+report

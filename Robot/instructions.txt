@@ -1,0 +1,7 @@
+﻿Some brief information about how to run the assignment: 
+- open visual studio and hit f5 to run "Program.cs"
+- Or compile and run file "Test.exe" in ".\bin\Debug\netcoreapp3.1"
+- edit file "commands.txt" to input commands for robot movement
+- type the command when running the app to send commands to the robot
+
+
